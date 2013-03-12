@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Formations</title>
+		<link rel="stylesheet" href="formations.css">
+		<script type="text/javascript" src="utils.js"></script>
+		<script type="text/javascript" src="formations.js"></script>
+	</head>
+	<body>
+		<form name="form" action="">
+			<canvas width="320" height="240" id="example"></canvas>
+			<p>Search space (%): <input type="range" name="slider" min="1" max="100" step="1" value="50"></p>
+			<p>Search algorithm: <select name="algorithm"><option value="gbfs">Greedy best-first</option><option value="a*">A*</option></select></p>
+			<p>Show paths:<br><input type="radio" name="path" value="true">Yes<br><input type="radio" name="path" value="" checked="checked">No</p>
+			<p>To the:<br><input type="radio" name="to" value="left">Left<br><input type="radio" name="to" value="center" checked="checked">Center<br><input type="radio" name="to" value="right">Right</p>
+			<menu label="Formations">
+				<button name="formation" value="1">Single column</button>
+				<button name="formation" value="2">Double column</button>
+				<button name="formation" value="3">Single Battle line</button>
+				<button name="formation" value="4">Double battle line</button>
+			</menu>
+		</form>
+	</body>
+</html>

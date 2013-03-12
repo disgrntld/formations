@@ -1,0 +1,14 @@
+* {
+	font-family: Arial;
+}
+
+canvas {
+	background-image: url('http://i.imgur.com/IxhmT.jpg');
+	border: 1px solid #000;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+menu {
+	clear: left;
+}
